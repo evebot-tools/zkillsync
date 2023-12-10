@@ -1,19 +1,19 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: #APP#
+  name: zkillsync
 spec:
   selector:
     matchLabels:
-      app: #APP#
+      app: zkillsync
   template:
     metadata:
       labels:
-        app: #APP#
+        app: zkillsync
     spec:
       containers:
-      - name: #APP#
-        image: ghcr.io/evebot-tools/#APP#
+      - name: zkillsync
+        image: ghcr.io/evebot-tools/zkillsync
         # resources:
         #   limits:
         #     memory: "128Mi"

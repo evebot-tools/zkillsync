@@ -2,11 +2,11 @@ package main
 
 import (
 	"fmt"
+	"github.com/getsentry/sentry-go"
 	"time"
 
-	"github.com/evebot-tools/#REPO#/internal"
-	"github.com/evebot-tools/libs/utils"
-	"github.com/getsentry/sentry-go"
+	"github.com/evebot-tools/utils"
+	"github.com/evebot-tools/zkillsync/internal"
 	"github.com/rs/zerolog"
 )
 
